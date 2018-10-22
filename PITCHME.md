@@ -62,7 +62,7 @@ message Person {
 ---
 
 @snap[north-west why-proto]
-@size(1.5em](Why not just use XML?)
+@size[1.5em](Why not just use XML?)
 @snapend
 
 @snap[west proto-pro]
