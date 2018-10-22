@@ -1,11 +1,8 @@
 # gRPC
 
 High-performance services using Go and gRPC
-
 ---
-
 ### Agenda
-
 - Intro (2m)
 - What is gRPC? (2m)
 - HTTP/1.1 vs HTTP/2.0 (4m)
@@ -13,25 +10,22 @@ High-performance services using Go and gRPC
 - Demo of converting REST server/client to gRPC (15-20m)
 - Deploy services to Istio-enabled Kubernetes cluster (10m)
 - Questions (or ask them throughout)
-
+---
 ### What is gRPC?
-
 - gRPC stands for gRPC Remote Procedure Calls
 - Interface Definition/Description Language (IDL) to describe APIs (Protocol Buffers)
 - Generate server/client stubs using Protocol Buffers compiler
 - Client/server communication using HTTP/2
-
+---
 ### HTTP/1.1 vs HTTP/2
-
 - HTTP/2 is a binary protocol
 - HTTP/2 supports header compression
 - HTTP/2 allows for multiplexed streams
   - HTTP/1 allowed pipelining, but responses had to be processed in order
   - HTTP/2 removes head-of-line blocking, allows concurrent requests/responses to be processed
     asynchronously and independently over single TCP connection
-
+---
 ### Protocol Buffers
-
 ```
 message Person {
   required string name = 1;
@@ -50,10 +44,10 @@ message Person {
   }
 
   repeated PhoneNumber phone = 4;
-}```
-
+}
+```
+---
 ### Protocol Buffers
-
 Why not just use XML?
 
 Protocol buffers:
@@ -66,9 +60,9 @@ Protocol buffers:
 But:
  - not human-readable and human-editable
  - not self-describing
-
+---
 ### Demo
  - Client/server
  - Istio routing
-
+---
 ### Questions
