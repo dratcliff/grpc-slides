@@ -113,3 +113,14 @@ Show v1/v2 deployment with Istio/k8s
 
 ### Questions
 
+@snap[north-east]
+@fa[question fa-2x]
+@snapend
+
+@snap[east]
+@fa[comment fa-2x]
+@snapend
+
+@snap[south-east]
+@fa[trophy fa-2x]
+@snapend
