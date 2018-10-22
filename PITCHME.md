@@ -46,10 +46,11 @@ over a single TCP connection.
 
 ---?code=src/addressbook.proto&title=Protocol Buffers
 
-@[10-13]
-@[27-29]
-@[31-35]
-@[37-42]
+@[1-9]
+@[11-30]
+@[12-14]
+@[27]
+@[29]
 
 ---
 
