@@ -96,9 +96,17 @@ Self-describing
 
 ### Demo
 
-phone-client-v1 (user-facing service) calls phone-server-v1 (which stores/retrieves from DB) via REST/JSON.  
+#### Services
 
-phone-client-v2 will call phone-server-v2 via gRPC.
+phone-client (user-facing service)  
+phone-client (storage/retrieval service)  
+
+#### Changes
+
+client-v1 calls server-v1 via REST/JSON. 
+client-v2 calls server-v2 via gRPC.
+
+#### Deployment
 
 If time/AWS permits, review a side-by-side deployment with Istio/k8s
 ---
