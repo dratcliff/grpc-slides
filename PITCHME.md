@@ -44,30 +44,12 @@ HTTP/2 allows for multiplexed streams. This allows concurrent
 requests/responses to be processed asynchronously and independently
 over a single TCP connection.
 
----
+---?code=src/addressbook.proto&title=Protocol Buffers
 
-### Protocol Buffers
-
-```
-message Person {
-  required string name = 1;
-  required int32 id = 2;
-  optional string email = 3;
-
-  enum PhoneType {
-    MOBILE = 0;
-    HOME = 1;
-    WORK = 2;
-  }
-
-  message PhoneNumber {
-    required string number = 1;
-    optional PhoneType type = 2 [default = HOME];
-  }
-
-  repeated PhoneNumber phone = 4;
-}
-```
+@[10-13]
+@[27-29]
+@[31-35]
+@[37-42]
 
 ---
 
