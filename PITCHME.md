@@ -4,9 +4,11 @@ High-performance services using Go and gRPC
 
 ---
 
+@snap[north-west]
 ### Agenda
+@snapend
 
-@snap[east]
+@snap[west]
 Intro (2m)  
 What is gRPC? (2m)  
 HTTP/1.1 vs HTTP/2.0 (4m)  
