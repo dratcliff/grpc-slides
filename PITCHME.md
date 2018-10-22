@@ -38,7 +38,7 @@ This leads to head-of-line blocking and requires client-server communications
 to use many connections for better parallelism.
 
 @snap[south]
-@fa[arrow-down]
+@fa[arrow-down fa-2x]
 @snapend
 
 +++
@@ -71,11 +71,11 @@ Simpler
 Less ambiguous  
 
 @snap[south]
-@fa[arrow-down]
+@fa[arrow-down fa-2x]
 @snapend
 
 @snap[east]
-@fa[thumbs-o-up fa-3x]
+@fa[thumbs-o-up fa-4x]
 @snapend
 
 +++
@@ -89,7 +89,7 @@ Human-editable
 Self-describing
 
 @snap[east]
-@fa[thumps-o-down fa-3x]
+@fa[thumbs-o-down fa-4x]
 @snapend
 
 ---
