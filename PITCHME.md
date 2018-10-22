@@ -95,10 +95,12 @@ Self-describing
 ---
 
 ### Demo
-Go server: mux -> gRPC server  
-Go client: http client / json -> gRPC client  
 
-Hopefully side-by-side deployment with Istio/k8s
+phone-client-v1 (user-facing service) calls phone-server-v1 (which stores/retrieves from DB) via REST/JSON.  
+
+phone-client-v2 will call phone-server-v2 via gRPC.
+
+If time/AWS permits, review a side-by-side deployment with Istio/k8s
 ---
 
 ### Questions
