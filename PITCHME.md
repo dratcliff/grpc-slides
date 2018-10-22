@@ -20,7 +20,7 @@ Questions (or ask them throughout)
 
 gRPC stands for gRPC Remote Procedure Calls.  
 
-grpc uses an Interface Definition/Description Language (IDL) to describe APIs (Protocol Buffers).  
+gRPC uses an Interface Definition Language (IDL) to describe APIs (Protocol Buffers).  
 Server/client stubs are generated from .proto file using Protocol Buffers compiler.  
 
 Client/server communication using HTTP/2.  
@@ -44,7 +44,7 @@ HTTP/2 allows for multiplexed streams. This allows concurrent
 requests/responses to be processed asynchronously and independently
 over a single TCP connection.
 
----?code=src/addressbook.proto&title=Protocol Buffers
+---?code=src/addressbook.proto&title=Sample .proto file
 
 @[1-9]
 @[11-30]
@@ -56,7 +56,12 @@ over a single TCP connection.
 
 ### Why not just use XML?
 
-Protocol buffers are: <br><br>simpler<br>3-10 times smaller<br>20-100 times faster<br>less ambiguous
+Protocol buffers are:  
+
+simpler   
+3-10 times smaller   
+20-100 times faster  
+less ambiguous  
 
 @fa[arrow-down]
 
@@ -64,15 +69,19 @@ Protocol buffers are: <br><br>simpler<br>3-10 times smaller<br>20-100 times fast
 
 ### Why not just use XML?
 
-But protocol buffers are not: <br><br>human-readable<br>human-editable<br>self-describing
+But protocol buffers are not:  
+
+human-readable  
+human-editable  
+self-describing
 
 ---
 
 ### Demo
+Go server: mux -> gRPC server  
+Go client: http client / json -> gRPC client  
 
- - Client/server
- - Istio routing
-
+Hopefully side-by-side deployment with Istio/k8s
 ---
 
 ### Questions
