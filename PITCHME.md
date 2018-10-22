@@ -98,13 +98,13 @@ Self-describing
 
 #### Services
 
-phone-client (user-facing service)  
-phone-client (storage/retrieval service)  
+**phone-client** (user-facing service)  
+**phone-client** (storage/retrieval service)  
 
 #### Tasks
 
-client-v1 calls server-v1 via REST/JSON.  
-client-v2 will call server-v2 via gRPC.  
+**client-v1** calls **server-v1** via REST/JSON.  
+**client-v2** will call **server-v2** via gRPC.  
 
 #### Deployment
 
