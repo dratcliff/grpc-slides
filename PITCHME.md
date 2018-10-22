@@ -66,18 +66,11 @@ message Person {
 @snapend
 
 @snap[west proto-pro]
-Protocol buffers:
- - are simpler
- - are 3 to 10 times smaller
- - are 20 to 100 times faster
- - are less ambiguous
- - generate data access classes that are easier to use programmatically
+Protocol buffers are: simpler; 3-10 times smaller; 20-100 times faster; less ambiguous; generate data access classes that are easier to use programmatically.
 @snapend
 
 @snap[east proto-con]
-But:
- - not human-readable and human-editable
- - not self-describing
+Protocol buffers are not human-readable, human-editable, or self-describing
 @snapend
 
 ---
