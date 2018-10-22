@@ -65,13 +65,17 @@ message Person {
 @size[1.5em](Why not just use XML?)
 @snapend
 
-Protocol buffers are: <br>simpler<br>3-10 times smaller<br>20-100 times faster<br>less ambiguous<br>generate data access classes that are easier to use programmatically.
+Protocol buffers are: <br><br>simpler<br>3-10 times smaller<br>20-100 times faster<br>less ambiguous
 
 @fa[arrow-down]
 
 +++
 
-But they are not: <br>human-readable<br>human-editable<br>or self-describing
+@snap[north-west]
+@size[1.5em](Why not just use XML?)
+@snapend
+
+But protocol buffers are not: <br><br>human-readable<br>human-editable<br>self-describing
 
 ---
 
