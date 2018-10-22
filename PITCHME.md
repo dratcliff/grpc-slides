@@ -13,9 +13,9 @@ Intro (2m)
 What is gRPC? (2m)  
 HTTP/1.1 vs HTTP/2.0 (4m)  
 Protocol Buffers (4m)  
-Development Demo (15-20m)
-Deployment Demo (10m)
-Questions (or ask them throughout)
+Development Demo (15-20m)  
+Deployment Demo (10m)  
+Questions (or ask them throughout)  
 @snapend
 
 ---
