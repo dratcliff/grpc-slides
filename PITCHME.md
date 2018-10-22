@@ -37,7 +37,9 @@ HTTP/1 allowed pipelining, but responses have to be processed in order.
 This leads to head-of-line blocking and requires client-server communications
 to use many connections for better parallelism.
 
+@snap[south]
 @fa[arrow-down]
+@snapend
 
 +++
 
@@ -68,7 +70,13 @@ Simpler
 20-100 times faster  
 Less ambiguous  
 
+@snap[south]
 @fa[arrow-down]
+@snapend
+
+@snap[east]
+@fa[thumbs-o-up fa-3x]
+@snapend
 
 +++
 
@@ -79,6 +87,10 @@ But protocol buffers are not:
 Human-readable  
 Human-editable  
 Self-describing
+
+@snap[east]
+@fa[thumps-o-down fa-3x]
+@snapend
 
 ---
 
