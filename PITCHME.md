@@ -21,6 +21,7 @@ Questions (or ask them throughout)
 gRPC stands for gRPC Remote Procedure Calls.  
 
 gRPC uses an Interface Definition Language (IDL) to describe APIs (Protocol Buffers).  
+
 Server/client stubs are generated from .proto file using Protocol Buffers compiler.  
 
 Client/server communication using HTTP/2.  
@@ -29,7 +30,8 @@ Client/server communication using HTTP/2.
 
 ### HTTP/1.1 vs HTTP/2
 
-HTTP/1 allowed pipelining, but responses have to be processed in order.
+HTTP/1 allowed pipelining, but responses have to be processed in order.  
+
 This leads to head-of-line blocking and requires client-server communications
 to use many connections for better parallelism.
 
@@ -39,7 +41,8 @@ to use many connections for better parallelism.
 
 ### HTTP/1.1 vs HTTP/2
 
-HTTP/2 is a binary protocol and supports header compression.
+HTTP/2 is a binary protocol and supports header compression.  
+
 HTTP/2 allows for multiplexed streams. This allows concurrent
 requests/responses to be processed asynchronously and independently
 over a single TCP connection.
@@ -58,10 +61,10 @@ over a single TCP connection.
 
 Protocol buffers are:  
 
-simpler   
+Simpler   
 3-10 times smaller   
 20-100 times faster  
-less ambiguous  
+Less ambiguous  
 
 @fa[arrow-down]
 
@@ -71,9 +74,9 @@ less ambiguous
 
 But protocol buffers are not:  
 
-human-readable  
-human-editable  
-self-describing
+Human-readable  
+Human-editable  
+Self-describing
 
 ---
 
