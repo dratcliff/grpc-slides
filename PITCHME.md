@@ -33,6 +33,8 @@ HTTP/1 allowed pipelining, but responses have to be processed in order.
 This leads to head-of-line blocking and requires client-server communications
 to use many connections for better parallelism.
 
+@fa[arrow-down]
+
 +++
 
 ### HTTP/1.1 vs HTTP/2
@@ -69,9 +71,7 @@ message Person {
 
 ---
 
-@snap[north-west]
-@size[1.5em](Why not just use XML?)
-@snapend
+### Why not just use XML?
 
 Protocol buffers are: <br><br>simpler<br>3-10 times smaller<br>20-100 times faster<br>less ambiguous
 
@@ -79,9 +79,7 @@ Protocol buffers are: <br><br>simpler<br>3-10 times smaller<br>20-100 times fast
 
 +++
 
-@snap[north-west]
-@size[1.5em](Why not just use XML?)
-@snapend
+### Why not just use XML?
 
 But protocol buffers are not: <br><br>human-readable<br>human-editable<br>self-describing
 
