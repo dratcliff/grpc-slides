@@ -13,8 +13,8 @@ Intro (2m)
 What is gRPC? (2m)  
 HTTP/1.1 vs HTTP/2.0 (4m)  
 Protocol Buffers (4m)  
-Demo of converting REST server/client to gRPC (15-20m)  
-Deployment example (k8s/Istio) (10m)  
+Development Demo (15-20m)
+Deployment Demo (10m)
 Questions (or ask them throughout)
 @snapend
 
