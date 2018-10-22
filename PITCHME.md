@@ -4,11 +4,8 @@ High-performance services using Go and gRPC
 
 ---
 
-@snap[north-west]
-@size[2.0em](Agenda)
-@snapend
+### Agenda
 
-@snap[west]
 Intro (2m)  
 What is gRPC? (2m)  
 HTTP/1.1 vs HTTP/2.0 (4m)  
@@ -16,16 +13,17 @@ Protocol Buffers (4m)
 Development Demo (15-20m)  
 Deployment Demo (10m)  
 Questions (or ask them throughout)  
-@snapend
 
 ---
 
 ### What is gRPC?
 
-gRPC stands for gRPC Remote Procedure Calls. grpc uses an Interface Definition/Description Language (IDL) to describe APIs (Protocol Buffers).
-To use: generate server/client stubs from .proto file using Protocol Buffers compiler.
+gRPC stands for gRPC Remote Procedure Calls.  
 
-Client/server communication using HTTP/2
+grpc uses an Interface Definition/Description Language (IDL) to describe APIs (Protocol Buffers).  
+Server/client stubs are generated from .proto file using Protocol Buffers compiler.  
+
+Client/server communication using HTTP/2.  
 
 ---
 
