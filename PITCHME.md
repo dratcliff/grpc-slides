@@ -13,7 +13,9 @@ Protocol Buffers (4m)
 Development Demo (15-20m)  
 Deployment Demo (10m)  
 Questions (or ask them throughout)  
-
+@snap[north-east]
+@fa[clock-o fa-3x]
+@snapend
 ---
 
 ### What is gRPC?
