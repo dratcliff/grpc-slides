@@ -5,6 +5,7 @@ High-performance services using Go and gRPC
 ---
 
 ### Agenda
+
 - Intro (2m)
 - What is gRPC? (2m)
 - HTTP/1.1 vs HTTP/2.0 (4m)
@@ -16,6 +17,7 @@ High-performance services using Go and gRPC
 ---
 
 ### What is gRPC?
+
 - gRPC stands for gRPC Remote Procedure Calls
 - Interface Definition/Description Language (IDL) to describe APIs (Protocol Buffers)
 - Generate server/client stubs using Protocol Buffers compiler
@@ -24,6 +26,7 @@ High-performance services using Go and gRPC
 ---
 
 ### HTTP/1.1 vs HTTP/2
+
 - HTTP/2 is a binary protocol
 - HTTP/2 supports header compression
 - HTTP/2 allows for multiplexed streams
@@ -34,6 +37,7 @@ High-performance services using Go and gRPC
 ---
 
 ### Protocol Buffers
+
 ```
 message Person {
   required string name = 1;
@@ -58,6 +62,7 @@ message Person {
 ---
 
 ### Protocol Buffers
+
 Why not just use XML?
 
 Protocol buffers:
@@ -74,9 +79,11 @@ But:
 ---
 
 ### Demo
+
  - Client/server
  - Istio routing
 
 ---
 
 ### Questions
+
