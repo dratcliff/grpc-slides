@@ -61,15 +61,15 @@ message Person {
 
 ---
 
-@snap[north-west why-proto]
+@snap[north-west]
 @size[1.5em](Why not just use XML?)
 @snapend
 
-@snap[west proto-pro]
+@snap[west]
 Protocol buffers are: simpler; 3-10 times smaller; 20-100 times faster; less ambiguous; generate data access classes that are easier to use programmatically.
 @snapend
 
-@snap[east proto-con]
+@snap[east]
 Protocol buffers are not human-readable, human-editable, or self-describing
 @snapend
 
