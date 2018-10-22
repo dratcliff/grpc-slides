@@ -101,14 +101,14 @@ Self-describing
 phone-client (user-facing service)  
 phone-client (storage/retrieval service)  
 
-#### Changes
+#### Tasks
 
-client-v1 calls server-v1 via REST/JSON. 
-client-v2 calls server-v2 via gRPC.
+client-v1 calls server-v1 via REST/JSON.  
+client-v2 will call server-v2 via gRPC.  
 
 #### Deployment
 
-If time/AWS permits, review a side-by-side deployment with Istio/k8s
+Show v1/v2 deployment with Istio/k8s
 ---
 
 ### Questions
