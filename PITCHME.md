@@ -6,6 +6,7 @@ High-performance services using Go and gRPC
 
 ### Agenda
 
+@snap[east]
 Intro (2m)  
 What is gRPC? (2m)  
 HTTP/1.1 vs HTTP/2.0 (4m)  
@@ -13,6 +14,7 @@ Protocol Buffers (4m)
 Demo of converting REST server/client to gRPC (15-20m)  
 Deployment example (k8s/Istio) (10m)  
 Questions (or ask them throughout)
+@snapend
 
 ---
 
