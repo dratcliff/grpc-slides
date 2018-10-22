@@ -5,7 +5,7 @@ High-performance services using Go and gRPC
 ---
 
 @snap[north-west]
-@css[title]Agenda
+@css[title](Agenda)
 @snapend
 
 @snap[west]
